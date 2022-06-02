@@ -1,4 +1,7 @@
-/*ESP 32 web based I2C scanner for enumerating connected I2C devices
+/*ESP 32 web based I2C scanner for enumerating connected I2C devices.
+Go to IP address of ESP for simple web serial terminal that will output the found I2C devices.
+Includes OTA update of firmware support.
+
 Adapted from https://randomnerdtutorials.com/esp32-i2c-communication-arduino-ide/
 
 
@@ -87,7 +90,7 @@ void setupWifI (){
 
 void setup() {
   // put your setup code here, to run once:
-  delay (1000);
+  delay (5000);
   Serial.begin(115200);
   setupWifI();
   setupOTA();

@@ -3,5 +3,6 @@
         "origin",
         "upstream",
         "https://github.com/1larity/ota_i2c_sniffer-"
-    ]
+    ],
+    "cmake.configureOnOpen": false
 }
